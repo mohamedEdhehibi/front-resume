@@ -1,5 +1,5 @@
-{
-    "products" = [
+
+   const products = [
         {
             "id": 101,
             "designation": "Iphone X",
@@ -30,4 +30,5 @@
         }
         // Add more products as needed
     ]
-}
+
+export default products
