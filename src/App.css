@@ -17,9 +17,12 @@
   height: 100%;
 
 }
+.cardcontent{display: flex;
+position: absolute;
+z-index: -1;}
 .content{
     background-color: #68696b;
-    margin-left: 50px;
+    margin-left: 250px;
     margin-top: 60px;
 }
 
