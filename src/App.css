@@ -1,8 +1,11 @@
 .App {
+  
   text-align: center;
   height: 200vh;
 }
+table{
 
+}
 .navbar1 {
   background-color: #a5b2d3;
   position: fixed !important;
@@ -17,11 +20,19 @@
   height: 100%;
 
 }
+.detailcontent{
+  margin-left: 250px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 .cardcontent{display: flex;
 position: absolute;
-z-index: -1;}
+z-index: -1;
+}
 .content{
-    background-color: #68696b;
+  
     margin-left: 250px;
     margin-top: 60px;
 }

@@ -6,6 +6,7 @@ import Dashboard from './components/Dashboard';
 import ProductList from './components/ProductList';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Orderlist from './components/Orderlist';
+import ProductDetails from './components/ProductDetails';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
 
           {/* <Route index element={<PostList />} /> */}
           <Route path="/orderlist" element={<Orderlist />}></Route>
+
+            <Route path='/orderlist/:id' element={<ProductDetails/>}></Route>
         </Routes>
 
       </Router>
