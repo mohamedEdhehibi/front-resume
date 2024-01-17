@@ -18,7 +18,7 @@ const Orderlist = () => {
     }, []);
     
   return (
-    <div>Orderlist</div>
+    <div className='content'>Orderlist</div>
   )
 }
 
