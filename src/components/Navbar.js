@@ -13,7 +13,7 @@ const Navbarr = () => {
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/productlist">In Stock</Nav.Link>
-                        <Nav.Link href="#link">Order</Nav.Link>
+                        <Nav.Link href="/orderlist">Order</Nav.Link>
 
                     </Nav>
                 </Navbar.Collapse>

@@ -5,6 +5,7 @@ import SideBar from './components/SideBar';
 import Dashboard from './components/Dashboard';
 import ProductList from './components/ProductList';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Orderlist from './components/Orderlist';
 
 function App() {
   return (
@@ -13,11 +14,11 @@ function App() {
       <SideBar />
       <Router>
         <Routes>
-          <Route path="/" element={<Dashboard/>} />
-          <Route path="/productlist" element={<ProductList />}>
-            {/* <Route index element={<PostList />} /> */}
-            
-          </Route>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/productlist" element={<ProductList />}></Route>
+
+          {/* <Route index element={<PostList />} /> */}
+          <Route path="/orderlist" element={<Orderlist />}></Route>
         </Routes>
 
       </Router>
